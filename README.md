@@ -6,6 +6,10 @@ AMD 2600 &amp; B450M &amp; RX580
 
 [视频说明](https://www.bilibili.com/video/av66328246?from=search&seid=5909070990651981103)
 
+[驱动参考](https://post.smzdm.com/p/a83d937n/)
+
+[驱动下载和文档](https://bitbucket.org/RehabMan/)
+
 [macOS Mojave 10.14.6(18G87) Installer for Intel and AMD with Clover 5050 and WEPE.dmg](https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html)
 
 ## TIP:
