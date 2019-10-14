@@ -6,7 +6,7 @@ AMD 2600 &amp; B450M &amp; RX580
 
 [视频说明](https://www.bilibili.com/video/av66328246?from=search&seid=5909070990651981103)
 
-[驱动参考](https://post.smzdm.com/p/a83d937n/)
+[蓝牙wifi驱动参考](https://post.smzdm.com/p/a83d937n/)
 
 [驱动下载和文档](https://bitbucket.org/RehabMan/)
 
@@ -20,5 +20,7 @@ AMD 2600 &amp; B450M &amp; RX580
  3. 最好使用独立的硬盘安装。
  
  4.所需要的文件都在，镜像也提供出来了
+
+ 5.由于我使用的是pci-e的intel 9260无线网卡蓝牙模块，所以无线是不能驱动的，蓝牙驱动是可以驱动的，只不要需要先启动win然后重启才能识别蓝牙，稍微有点麻烦，这个需要通过博通的蓝牙模块来彻底解决这个问题，
   
  ![image.png](https://i.loli.net/2019/10/06/HVyZz1XfDpT9q5B.png)
