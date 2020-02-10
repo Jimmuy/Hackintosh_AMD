@@ -1,0 +1,162 @@
+42:389  0:266  Found BIOS RSDP at FCB60
+42:389  0:000  Printing ACPI tables from RSDP FCB60 ...
+42:389  0:000   FCB60: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+42:389  0:000    (Xsdt: DDAA50A0, Rsdt: DDAA5028)
+42:389  0:000    DDAA50A0: 'XSDT', 'A M I', Rev: 1, Len: 196
+42:389  0:000    DDAA5028: 'RSDT', 'A M I', Rev: 1, Len: 116
+42:389  0:000    Tables in Xsdt: 20
+42:389  0:000    0. DDAACE30: 'FACP', 'A M I', Rev: 6, Len: 276
+42:389  0:000        (Dsdt: DDAA5200, Facs: DDB11E00, XDsdt: DDAA5200, XFacs: 0)
+42:389  0:000        DDAA5200: 'DSDT', 'A M I', Rev: 2, Len: 31789
+42:390  0:000        DDB11E00: 'FACS', Ver: 2, Len: 64
+42:390  0:000    1. DDAACF48: 'APIC', 'A M I', Rev: 3, Len: 350
+42:390  0:000    2. DDAAD0A8: 'FPDT', 'A M I', Rev: 1, Len: 68
+42:390  0:000    3. DDAAD0F0: 'FIDT', 'A M I', Rev: 1, Len: 156
+42:390  0:000    4. DDAAD190: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252
+42:390  0:000    5. DDAAD290: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992
+42:390  0:000    6. DDAB5F28: 'SSDT', 'AMD AOD', Rev: 1, Len: 13037
+42:390  0:000    7. DDAB9218: 'MCFG', 'A M I', Rev: 1, Len: 60
+42:390  0:000    8. DDAB9258: 'HPET', 'A M I', Rev: 1, Len: 56
+42:390  0:000    9. DDAB9290: 'UEFI', 'A M I', Rev: 1, Len: 66
+42:390  0:000    10. DDAB92D8: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208
+42:390  0:000    11. DDAB93A8: 'PCCT', 'AMD PCCT', Rev: 1, Len: 110
+42:390  0:000    12. DDAB9418: 'SSDT', 'AMD CPU', Rev: 1, Len: 16073
+42:390  0:000    13. DDABD2E8: 'CRAT', 'AMD CRAT', Rev: 1, Len: 5464
+42:390  0:000    14. DDABE840: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41
+42:390  0:000    15. DDABE870: 'BGRT', 'A M I', Rev: 1, Len: 56
+42:390  0:000    16. DDABE8A8: 'SSDT', 'AmdTable', Rev: 1, Len: 7498
+42:390  0:000    17. DDAC05F8: 'SSDT', 'AMD PT', Rev: 1, Len: 191
+42:390  0:000    18. DDAC06B8: 'WSMT', 'A M I', Rev: 1, Len: 40
+42:390  0:000    19. DDAC06E0: 'SSDT', 'AmdTable', Rev: 1, Len: 4271
+42:390  0:000    Tables in Rsdt: 20
+42:390  0:000    0. DDAA5178: 'FACP', 'A M I', Rev: 2, Len: 132
+42:390  0:000        (Dsdt: DDAA5200, Facs: DDB11DC0)
+42:390  0:000        DDAA5200: 'DSDT', 'A M I', Rev: 2, Len: 31789
+42:390  0:000        DDB11DC0: 'FACS', Ver: 0, Len: 64
+42:390  0:000    1. DDAACF48: 'APIC', 'A M I', Rev: 3, Len: 350
+42:390  0:000    2. DDAAD0A8: 'FPDT', 'A M I', Rev: 1, Len: 68
+42:390  0:000    3. DDAAD0F0: 'FIDT', 'A M I', Rev: 1, Len: 156
+42:390  0:000    4. DDAAD190: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252
+42:390  0:000    5. DDAAD290: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992
+42:390  0:000    6. DDAB5F28: 'SSDT', 'AMD AOD', Rev: 1, Len: 13037
+42:390  0:000    7. DDAB9218: 'MCFG', 'A M I', Rev: 1, Len: 60
+42:390  0:000    8. DDAB9258: 'HPET', 'A M I', Rev: 1, Len: 56
+42:390  0:000    9. DDAB9290: 'UEFI', 'A M I', Rev: 1, Len: 66
+42:390  0:000    10. DDAB92D8: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208
+42:390  0:000    11. DDAB93A8: 'PCCT', 'AMD PCCT', Rev: 1, Len: 110
+42:390  0:000    12. DDAB9418: 'SSDT', 'AMD CPU', Rev: 1, Len: 16073
+42:390  0:000    13. DDABD2E8: 'CRAT', 'AMD CRAT', Rev: 1, Len: 5464
+42:390  0:000    14. DDABE840: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41
+42:390  0:000    15. DDABE870: 'BGRT', 'A M I', Rev: 1, Len: 56
+42:390  0:000    16. DDABE8A8: 'SSDT', 'AmdTable', Rev: 1, Len: 7498
+42:390  0:000    17. DDAC05F8: 'SSDT', 'AMD PT', Rev: 1, Len: 191
+42:390  0:000    18. DDAC06B8: 'WSMT', 'A M I', Rev: 1, Len: 40
+42:390  0:000    19. DDAC06E0: 'SSDT', 'AmdTable', Rev: 1, Len: 4271
+42:390  0:000  Found UEFI Acpi 2.0 RSDP at DDAA5000
+42:390  0:000  Saving ACPI tables from RSDP DDAA5000 to EFI\CLOVER\ACPI\origin ...
+42:390  0:000   DDAA5000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+42:438  0:048    (Xsdt: DDAA50A0, Rsdt: DDAA5028)
+42:438  0:000    DDAA50A0: 'XSDT', 'A M I', Rev: 1, Len: 196 -> XSDT.aml
+42:502  0:063    DDAA5028: 'RSDT', 'A M I', Rev: 1, Len: 116 -> RSDT.aml
+42:549  0:046    Tables in Xsdt: 20
+42:549  0:000    0. DDAACE30: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+42:596  0:047        (Dsdt: DDAA5200, Facs: DDB11E00, XDsdt: DDAA5200, XFacs: 0)
+42:596  0:000        DDAA5200: 'DSDT', 'A M I', Rev: 2, Len: 31789 -> DSDT.aml
+42:719  0:123        DDB11E00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+42:767  0:047    1. DDAACF48: 'APIC', 'A M I', Rev: 3, Len: 350 -> APIC.aml
+42:814  0:046    2. DDAAD0A8: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+42:861  0:046    3. DDAAD0F0: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+42:907  0:046    4. DDAAD190: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252 -> SSDT-0-CPUSSDT.aml
+42:954  0:046    5. DDAAD290: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992 -> SSDT-1-AMD ALIB.aml
+43:004  0:049    6. DDAB5F28: 'SSDT', 'AMD AOD', Rev: 1, Len: 13037 -> SSDT-2-AMD AOD.aml
+43:081  0:076    7. DDAB9218: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+43:130  0:049    8. DDAB9258: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+43:180  0:049    9. DDAB9290: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+43:230  0:049    10. DDAB92D8: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208 -> IVRS.aml
+43:279  0:049    11. DDAB93A8: 'PCCT', 'AMD PCCT', Rev: 1, Len: 110 -> PCCT.aml
+43:329  0:049    12. DDAB9418: 'SSDT', 'AMD CPU', Rev: 1, Len: 16073 -> SSDT-3-AMD CPU.aml
+43:379  0:049    13. DDABD2E8: 'CRAT', 'AMD CRAT', Rev: 1, Len: 5464 -> CRAT.aml
+43:428  0:049    14. DDABE840: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41 -> CDIT.aml
+43:478  0:049    15. DDABE870: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+43:528  0:049    16. DDABE8A8: 'SSDT', 'AmdTable', Rev: 1, Len: 7498 -> SSDT-4-AmdTable.aml
+43:578  0:050    17. DDAC05F8: 'SSDT', 'AMD PT', Rev: 1, Len: 191 -> SSDT-5-AMD PT.aml
+43:644  0:066    18. DDAC06B8: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+43:693  0:048    19. DDAC06E0: 'SSDT', 'AmdTable', Rev: 1, Len: 4271 -> SSDT-6-AmdTable.aml
+43:742  0:048    Tables in Rsdt: 20
+43:742  0:000    0. DDAA5178: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+43:791  0:048        (Dsdt: DDAA5200, Facs: DDB11DC0)
+43:791  0:000        DDAA5200: 'DSDT', 'A M I', Rev: 2, Len: 31789
+43:791  0:000        DDB11DC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+43:915  0:123    1. DDAACF48: 'APIC', 'A M I', Rev: 3, Len: 350
+43:915  0:000    2. DDAAD0A8: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:915  0:000    3. DDAAD0F0: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:915  0:000    4. DDAAD190: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252
+43:915  0:000    5. DDAAD290: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992
+43:915  0:000    6. DDAB5F28: 'SSDT', 'AMD AOD', Rev: 1, Len: 13037
+43:915  0:000    7. DDAB9218: 'MCFG', 'A M I', Rev: 1, Len: 60
+43:915  0:000    8. DDAB9258: 'HPET', 'A M I', Rev: 1, Len: 56
+43:915  0:000    9. DDAB9290: 'UEFI', 'A M I', Rev: 1, Len: 66
+43:915  0:000    10. DDAB92D8: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208
+43:915  0:000    11. DDAB93A8: 'PCCT', 'AMD PCCT', Rev: 1, Len: 110
+43:915  0:000    12. DDAB9418: 'SSDT', 'AMD CPU', Rev: 1, Len: 16073
+43:915  0:000    13. DDABD2E8: 'CRAT', 'AMD CRAT', Rev: 1, Len: 5464
+43:915  0:000    14. DDABE840: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41
+43:915  0:000    15. DDABE870: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:915  0:000    16. DDABE8A8: 'SSDT', 'AmdTable', Rev: 1, Len: 7498
+43:915  0:000    17. DDAC05F8: 'SSDT', 'AMD PT', Rev: 1, Len: 191
+43:915  0:000    18. DDAC06B8: 'WSMT', 'A M I', Rev: 1, Len: 40
+43:915  0:000    19. DDAC06E0: 'SSDT', 'AmdTable', Rev: 1, Len: 4271
+43:915  0:000  Found UEFI Acpi 1.0 RSDP at DDAA5000
+43:915  0:000  Printing ACPI tables from RSDP DDAA5000 ...
+43:915  0:000   DDAA5000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+43:915  0:000    (Xsdt: DDAA50A0, Rsdt: DDAA5028)
+43:915  0:000    DDAA50A0: 'XSDT', 'A M I', Rev: 1, Len: 196
+43:915  0:000    DDAA5028: 'RSDT', 'A M I', Rev: 1, Len: 116
+43:915  0:000    Tables in Xsdt: 20
+43:915  0:000    0. DDAACE30: 'FACP', 'A M I', Rev: 6, Len: 276
+43:915  0:000        (Dsdt: DDAA5200, Facs: DDB11E00, XDsdt: DDAA5200, XFacs: 0)
+43:915  0:000        DDAA5200: 'DSDT', 'A M I', Rev: 2, Len: 31789
+43:915  0:000        DDB11E00: 'FACS', Ver: 2, Len: 64
+43:915  0:000    1. DDAACF48: 'APIC', 'A M I', Rev: 3, Len: 350
+43:915  0:000    2. DDAAD0A8: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:915  0:000    3. DDAAD0F0: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:915  0:000    4. DDAAD190: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252
+43:915  0:000    5. DDAAD290: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992
+43:915  0:000    6. DDAB5F28: 'SSDT', 'AMD AOD', Rev: 1, Len: 13037
+43:915  0:000    7. DDAB9218: 'MCFG', 'A M I', Rev: 1, Len: 60
+43:915  0:000    8. DDAB9258: 'HPET', 'A M I', Rev: 1, Len: 56
+43:915  0:000    9. DDAB9290: 'UEFI', 'A M I', Rev: 1, Len: 66
+43:915  0:000    10. DDAB92D8: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208
+43:915  0:000    11. DDAB93A8: 'PCCT', 'AMD PCCT', Rev: 1, Len: 110
+43:915  0:000    12. DDAB9418: 'SSDT', 'AMD CPU', Rev: 1, Len: 16073
+43:915  0:000    13. DDABD2E8: 'CRAT', 'AMD CRAT', Rev: 1, Len: 5464
+43:915  0:000    14. DDABE840: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41
+43:915  0:000    15. DDABE870: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:915  0:000    16. DDABE8A8: 'SSDT', 'AmdTable', Rev: 1, Len: 7498
+43:915  0:000    17. DDAC05F8: 'SSDT', 'AMD PT', Rev: 1, Len: 191
+43:915  0:000    18. DDAC06B8: 'WSMT', 'A M I', Rev: 1, Len: 40
+43:915  0:000    19. DDAC06E0: 'SSDT', 'AmdTable', Rev: 1, Len: 4271
+43:915  0:000    Tables in Rsdt: 20
+43:915  0:000    0. DDAA5178: 'FACP', 'A M I', Rev: 2, Len: 132
+43:915  0:000        (Dsdt: DDAA5200, Facs: DDB11DC0)
+43:915  0:000        DDAA5200: 'DSDT', 'A M I', Rev: 2, Len: 31789
+43:916  0:000        DDB11DC0: 'FACS', Ver: 0, Len: 64
+43:916  0:000    1. DDAACF48: 'APIC', 'A M I', Rev: 3, Len: 350
+43:916  0:000    2. DDAAD0A8: 'FPDT', 'A M I', Rev: 1, Len: 68
+43:916  0:000    3. DDAAD0F0: 'FIDT', 'A M I', Rev: 1, Len: 156
+43:916  0:000    4. DDAAD190: 'SSDT', 'CPUSSDT', Rev: 2, Len: 252
+43:916  0:000    5. DDAAD290: 'SSDT', 'AMD ALIB', Rev: 2, Len: 35992
+43:916  0:000    6. DDAB5F28: 'SSDT', 'AMD AOD', Rev: 1, Len: 13037
+43:916  0:000    7. DDAB9218: 'MCFG', 'A M I', Rev: 1, Len: 60
+43:916  0:000    8. DDAB9258: 'HPET', 'A M I', Rev: 1, Len: 56
+43:916  0:000    9. DDAB9290: 'UEFI', 'A M I', Rev: 1, Len: 66
+43:916  0:000    10. DDAB92D8: 'IVRS', 'AMD IVRS', Rev: 2, Len: 208
+43:916  0:000    11. DDAB93A8: 'PCCT', 'AMD PCCT', Rev: 1, Len: 110
+43:916  0:000    12. DDAB9418: 'SSDT', 'AMD CPU', Rev: 1, Len: 16073
+43:916  0:000    13. DDABD2E8: 'CRAT', 'AMD CRAT', Rev: 1, Len: 5464
+43:916  0:000    14. DDABE840: 'CDIT', 'AMD CDIT', Rev: 1, Len: 41
+43:916  0:000    15. DDABE870: 'BGRT', 'A M I', Rev: 1, Len: 56
+43:916  0:000    16. DDABE8A8: 'SSDT', 'AmdTable', Rev: 1, Len: 7498
+43:916  0:000    17. DDAC05F8: 'SSDT', 'AMD PT', Rev: 1, Len: 191
+43:916  0:000    18. DDAC06B8: 'WSMT', 'A M I', Rev: 1, Len: 40
+43:916  0:000    19. DDAC06E0: 'SSDT', 'AmdTable', Rev: 1, Len: 4271

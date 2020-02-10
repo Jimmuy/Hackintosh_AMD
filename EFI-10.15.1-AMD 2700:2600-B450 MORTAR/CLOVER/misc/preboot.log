@@ -1,0 +1,407 @@
+0:100  0:100  MemLog inited, TSC freq: 3600524880
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 1.12.2019,  12:15:38 (GMT)
+0:100  0:000  Starting Clover revision: 5098 (master, commit 69e063b5) on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/Clover/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x2,0x0)\HD(1,GPT,3E132DB3-5F03-4E62-AE56-B2589C909217,0x22,0x64000) @D9C7F398
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  SimpleTextEx Status=Success
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  Table has error information, checking
+0:100  0:000  Found memory information in table 18/1, type=0x3, operation=0x2 syndrome=0x0
+0:100  0:000  ...memory OK
+0:100  0:000  SmbiosTable.Type17->Speed = 3000MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = P0 CHANNEL A DIMM 0
+0:100  0:000  SmbiosTable.Type17->Vendor = Unknown
+0:100  0:000  SmbiosTable.Type17->SerialNumber = Unknown
+0:100  0:000  SmbiosTable.Type17->PartNumber = Unknown
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Table has error information, checking
+0:100  0:000  Found memory information in table 18/2, type=0x3, operation=0x2 syndrome=0x0
+0:100  0:000  ...memory OK
+0:100  0:000  SmbiosTable.Type17->Speed = 3000MHz
+0:100  0:000  SmbiosTable.Type17->Size = 16384MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = P0 CHANNEL A DIMM 1
+0:100  0:000  SmbiosTable.Type17->Vendor = Micron Technology
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 01088FB9
+0:100  0:000  SmbiosTable.Type17->PartNumber = MTA16ATF2G64AZ-2G6A1
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  Table has error information, checking
+0:100  0:000  Found memory information in table 18/3, type=0x3, operation=0x2 syndrome=0x0
+0:100  0:000  ...memory OK
+0:100  0:000  SmbiosTable.Type17->Speed = 3000MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = P0 CHANNEL B DIMM 0
+0:100  0:000  SmbiosTable.Type17->Vendor = Unknown
+0:100  0:000  SmbiosTable.Type17->SerialNumber = Unknown
+0:100  0:000  SmbiosTable.Type17->PartNumber = Unknown
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  Table has error information, checking
+0:100  0:000  Found memory information in table 18/4, type=0x3, operation=0x2 syndrome=0x0
+0:100  0:000  ...memory OK
+0:100  0:000  SmbiosTable.Type17->Speed = 3000MHz
+0:100  0:000  SmbiosTable.Type17->Size = 16384MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = P0 CHANNEL B DIMM 1
+0:100  0:000  SmbiosTable.Type17->Vendor = Micron Technology
+0:100  0:000  SmbiosTable.Type17->SerialNumber = DD28CA0A
+0:100  0:000  SmbiosTable.Type17->PartNumber = MTA16ATF2G64AZ-2G6A1
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'MS-7B89' with board 'B450M MORTAR (MS-7B89)'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 68747541 Model=870F10
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = AMD Ryzen 7 3700X 8-Core Processor             
+0:100  0:000  	Looking to disable C1E if is already enabled by the BIOS:
+0:100  0:000  CurrentSpeed: 3600
+0:100  0:000  maxratio 72
+0:100  0:000  cpudid_zen 8
+0:100  0:000  FSBFrequency = 50 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 36.0/22
+0:100  0:000  Turbo: 0/0/0/0
+0:100  0:000  Features: 0x178BFBFF
+0:100  0:000  Threads: 16
+0:100  0:000  Cores: 8
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 3600 MHz
+0:100  0:000  TSC: 3600 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  GOP found at: PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+0:100  0:000  PCI (00|00:00.00) : 1022 1480 class=060000
+0:100  0:000  PCI (00|00:00.02) : 1022 1481 class=080600
+0:100  0:000  PCI (00|00:01.00) : 1022 1482 class=060000
+0:100  0:000  PCI (00|00:01.01) : 1022 1483 class=060400
+0:100  0:000  PCI (00|01:00.00) : 144D A808 class=010802
+0:100  0:000  PCI (00|00:01.03) : 1022 1483 class=060400
+0:100  0:000  PCI (00|03:00.00) : 1022 43D5 class=0C0330
+0:100  0:000  PCI (00|03:00.01) : 1022 43C8 class=010601
+0:100  0:000  PCI (00|03:00.02) : 1022 43C6 class=060400
+0:100  0:000  PCI (00|20:00.00) : 1022 43C7 class=060400
+0:100  0:000  PCI (00|20:01.00) : 1022 43C7 class=060400
+0:100  0:000  PCI (00|22:00.00) : 10EC 8168 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|20:04.00) : 1022 43C7 class=060400
+0:100  0:000  PCI (00|25:00.00) : 14E4 43BA class=028000
+0:100  0:000   - WIFI: Vendor=Broadcom
+0:100  0:000  PCI (00|00:02.00) : 1022 1482 class=060000
+0:100  0:000  PCI (00|00:03.00) : 1022 1482 class=060000
+0:100  0:000  PCI (00|00:03.01) : 1022 1483 class=060400
+0:100  0:000  PCI (00|26:00.00) : 1002 67DF class=030000
+0:100  0:000   - GOP: Provided by device
+0:100  0:000   - GFX: Model=AMD Radeon RX 480 (ATI/AMD)
+0:100  0:000  PCI (00|26:00.01) : 1002 AAF0 class=040300
+0:100  0:000   - HDMI Audio: 
+0:100  0:000  PCI (00|00:04.00) : 1022 1482 class=060000
+0:100  0:000  PCI (00|00:05.00) : 1022 1482 class=060000
+0:100  0:000  PCI (00|00:07.00) : 1022 1482 class=060000
+0:100  0:000  PCI (00|00:07.01) : 1022 1484 class=060400
+0:100  0:000  PCI (00|27:00.00) : 1022 148A class=130000
+0:100  0:000  PCI (00|00:08.00) : 1022 1482 class=060000
+0:100  0:000  PCI (00|00:08.01) : 1022 1484 class=060400
+0:100  0:000  PCI (00|28:00.00) : 1022 1485 class=130000
+0:100  0:000  PCI (00|28:00.01) : 1022 1486 class=108000
+0:100  0:000  PCI (00|28:00.03) : 1022 149C class=0C0330
+0:100  0:000  PCI (00|28:00.04) : 1022 1487 class=040300
+0:100  0:000  PCI (00|00:08.02) : 1022 1484 class=060400
+0:100  0:000  PCI (00|30:00.00) : 1022 7901 class=010601
+0:100  0:000  PCI (00|00:08.03) : 1022 1484 class=060400
+0:100  0:000  PCI (00|31:00.00) : 1022 7901 class=010601
+0:100  0:000  PCI (00|00:14.00) : 1022 790B class=0C0500
+0:100  0:000  PCI (00|00:14.03) : 1022 790E class=060100
+0:100  0:000  PCI (00|00:18.00) : 1022 1440 class=060000
+0:100  0:000  PCI (00|00:18.01) : 1022 1441 class=060000
+0:100  0:000  PCI (00|00:18.02) : 1022 1442 class=060000
+0:100  0:000  PCI (00|00:18.03) : 1022 1443 class=060000
+0:100  0:000  PCI (00|00:18.04) : 1022 1444 class=060000
+0:100  0:000  PCI (00|00:18.05) : 1022 1445 class=060000
+0:100  0:000  PCI (00|00:18.06) : 1022 1446 class=060000
+0:100  0:000  PCI (00|00:18.07) : 1022 1447 class=060000
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 0 bytes
+0:107  0:006  EFI\CLOVER\config.plist loaded: Success
+0:107  0:000  === [ GetListOfThemes ] ===================================
+0:107  0:000  - [00]: embedded
+0:107  0:000  - [00]: random
+0:107  0:000  - [00]: Lenovo
+0:109  0:001  - [01]: Retina
+0:110  0:001  === [ Found config plists ] ===============================
+0:110  0:000  - config(	ãà;˜-‰Åö().plist
+0:110  0:000  - config.plist
+0:110  0:000  === [ GetEarlyUserSettings ] ==============================
+0:110  0:000  timeout set to -1
+0:110  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:110  0:000  KernelToPatch: 60 requested
+0:110  0:000   - [00]: Disable panic kext logging on 10.13.x Release kernel :: MatchOS: 10.13.x :: data len: 6
+0:110  0:000   - [01]: Disable panic kext logging on 10.14.4+ Release kernel :: MatchOS: 10.14.x,10.15.x :: data len: 6
+0:111  0:000   - [02]: algrey - commpage_populate -remove rdmsr :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 7
+0:111  0:000   - [03]: algrey - cpu_topology_sort -disable _x86_validate_topology :: MatchOS: 10.13.x :: data len: 6
+0:111  0:000   - [04]: algrey - cpu_topology_sort -disable _x86_validate_topology (10.14.4+) :: MatchOS: 10.14.x :: data len: 5
+0:111  0:000   - [05]: xlnc - cpu_topology_sort -disable _x86_validate_topology :: MatchOS: 10.15.x :: data len: 6
+0:111  0:000   - [06]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 73
+0:111  0:000   - [07]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 73
+0:111  0:000   - [08]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.14.6 :: data len: 73
+0:111  0:000   - [09]: xlnc - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 73
+0:111  0:000   - [10]: xlnc - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.15.0 :: data len: 21
+0:111  0:000   - [11]: xlnc - cpuid_set_cache_info - cpuid 0x8000001D instead 0 :: MatchOS: 10.15.1 :: data len: 21
+0:111  0:000   - [12]: algrey - cpuid_set_cache_info - cpuid 0x8000001D instead 4 :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 10
+0:111  0:000   - [13]: algrey - cpuid_set_cache_info - don't set cpuid_cores_per_package :: MatchOS: 10.13.x,10.14.x :: data len: 5
+0:111  0:000   - [14]: xlnc - cpuid_set_cache_info - don't set cpuid_cores_per_package :: MatchOS: 10.15.x :: data len: 5
+0:111  0:000   - [15]: xlnc - cpuid_set_cache_info - skip cpuid_cores_per_package test :: MatchOS: 10.15.x :: data len: 16
+0:111  0:000   - [16]: algrey - cpuid_set_generic_info - remove wrmsr :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 11
+0:111  0:000   - [17]: algrey - cpuid_set_generic_info - set microcode=186 :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 7
+0:111  0:000   - [18]: algrey - cpuid_set_generic_info - set flag=1 :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 13
+0:111  0:000   - [19]: algrey - cpuid_set_generic_info - disable check to allow leaf7 :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 4
+0:111  0:000   - [20]: algrey - cpuid_set_info - GenuineIntel to AuthenticAMD  :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 13
+0:111  0:000   - [21]: algrey - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 11
+0:111  0:000   - [22]: algrey - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 11
+0:111  0:000   - [23]: algrey - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.14.6 :: data len: 11
+0:111  0:000   - [24]: xlnc - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 11
+0:111  0:000   - [25]: xlnc - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.15.0 :: data len: 11
+0:111  0:000   - [26]: xlnc - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN :: MatchOS: 10.15.1 :: data len: 11
+0:111  0:000   - [27]: algrey - cpuid_set_info - ryzen cores and logicals count :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 140
+0:111  0:000   - [28]: algrey - cpuid_set_info - ryzen cores and logicals count :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 140
+0:111  0:000   - [29]: algrey - cpuid_set_info - ryzen cores and logicals count :: MatchOS: 10.14.6 :: data len: 100
+0:111  0:000   - [30]: xlnc - cpuid_set_info - ryzen cores and logicals count :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 100
+0:111  0:000   - [31]: xlnc - cpuid_set_info - jmp to calculations and set cpuid_cores_per_package :: MatchOS: 10.15.0 :: data len: 21
+0:111  0:000   - [32]: xlnc - cpuid_set_info - jmp to calculations and set cpuid_cores_per_package :: MatchOS: 10.15.1 :: data len: 21
+0:111  0:000   - [33]: xlnc - cpuid_set_info - cores and threads calculations :: MatchOS: 10.15.0,10.15.1 :: data len: 65
+0:111  0:000   - [34]: algrey - i386_init - remove rdmsr (x3) :: MatchOS: 10.13.x,10.14.x,10.15.x :: data len: 42
+0:111  0:000   - [35]: algrey - tsc_init - remove Penryn check to execute default case :: MatchOS: 10.13.6 :: data len: 11
+0:111  0:000   - [36]: algrey - tsc_init - remove Penryn check to execute default case :: MatchOS: 10.14.6 :: data len: 11
+0:111  0:000   - [37]: xlnc - tsc_init - remove Penryn check to execute default case :: MatchOS: 10.15.0 :: data len: 11
+0:111  0:000   - [38]: xlnc - tsc_init - remove Penryn check to execute default case :: MatchOS: 10.15.1 :: data len: 11
+0:111  0:000   - [39]: algrey - tsc_init - grab DID and VID from MSR :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 34
+0:111  0:000   - [40]: algrey - tsc_init - grab DID and VID from MSR :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 34
+0:111  0:000   - [41]: algrey - tsc_init - grab DID and VID from MSR :: MatchOS: 10.14.6 :: data len: 34
+0:111  0:000   - [42]: xlnc - tsc_init - grab DID and VID from MSR :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 34
+0:111  0:000   - [43]: xlnc - tsc_init - grab DID and VID from MSR :: MatchOS: 10.15.0 :: data len: 34
+0:111  0:000   - [44]: xlnc - tsc_init - grab DID and VID from MSR :: MatchOS: 10.15.1 :: data len: 34
+0:111  0:000   - [45]: algrey - tsc_init - skip test and go get FSBFrequency :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 14
+0:111  0:000   - [46]: algrey - tsc_init - skip test and go get FSBFrequency :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 14
+0:111  0:000   - [47]: algrey - tsc_init - skip test and go get FSBFrequency :: MatchOS: 10.14.6 :: data len: 14
+0:111  0:000   - [48]: xlnc - tsc_init - skip test and go get FSBFrequency :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 14
+0:111  0:000   - [49]: xlnc - tsc_init - skip test and go get FSBFrequency :: MatchOS: 10.15.0,10.15.1 :: data len: 7
+0:111  0:000   - [50]: algrey - lapic_init - remove version check and panic :: MatchOS: 10.13.x,10.14.x :: data len: 8
+0:111  0:000   - [51]: xlnc - lapic_init - remove version check and panic :: MatchOS: 10.15.x :: data len: 5
+0:111  0:000   - [52]: algrey - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.13.6 :: MatchBuild: 17G65,17G66 :: data len: 9
+0:111  0:000   - [53]: algrey - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.13.6 :: MatchBuild: 17G8030,17G8037 :: data len: 9
+0:111  0:000   - [54]: algrey - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.14.6 :: data len: 9
+0:111  0:000   - [55]: xlnc - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.14.6 :: MatchBuild: 18G95,18G103 :: data len: 9
+0:111  0:000   - [56]: xlnc - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.15.0 :: data len: 9
+0:111  0:000   - [57]: xlnc - lapic_interrupt - skip checks and prevent panic :: MatchOS: 10.15.1 :: data len: 9
+0:111  0:000   - [58]: algrey - mtrr_update_action - fix PAT :: MatchOS: 10.13.x :: data len: 19
+0:111  0:000   - [59]: algrey - mtrr_update_action - fix PAT (x2) (10.14.4+) :: MatchOS: 10.14.x,10.15.x :: data len: 19
+0:111  0:000  Default theme: Lenovo
+0:111  0:000  Hiding entries with string Recovery HD
+0:111  0:000  === [ LoadDrivers ] =======================================
+0:113  0:001  Loading ApfsDriverLoader.efi  status=Success
+0:214  0:101   - driver needs connecting
+0:214  0:000  Loading HFSPlus.efi  status=Success
+0:215  0:000   - driver needs connecting
+0:215  0:000  Loading AptioMemoryFix.efi  status=Success
+0:316  0:100  2 drivers needs connecting ...
+0:316  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:316  0:000  HFS+ driver loaded
+0:316  0:000  APFS driver loaded
+0:316  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:896  0:579  === [ InitScreen ] ========================================
+0:896  0:000  Console modes reported: 4, available modes:
+0:896  0:000   - [01]: 80x25
+0:896  0:000   - [02]: 80x50
+0:896  0:000   - [03]: 100x31
+0:896  0:000   - [04]: 128x40 (current mode)
+0:896  0:000  SetScreenResolution: 1920x1080 - not found!
+0:896  0:000  SetMaxResolution: found best mode 4: 3440x1440
+0:896  0:000   - already set
+0:896  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x2,0x0)\HD(1,GPT,3E132DB3-5F03-4E62-AE56-B2589C909217,0x22,0x64000)
+0:896  0:000  === [ GetMacAddress ] =====================================
+0:896  0:000   get legacy LAN MAC, 1 card found
+0:896  0:000  Legacy MAC address of LAN #0= 00:D8:61:76:6F:81:
+0:896  0:000  === [ ScanSPD ] ===========================================
+0:896  0:000  === [ GetAcpiTablesList ] =================================
+0:896  0:000  Get Acpi Tables List from RSDT:
+0:896  0:000   - [00]: FACP  A M I  len=132
+0:896  0:000   - [01]: APIC  A M I  len=350
+0:896  0:000   - [02]: FPDT  A M I  len=68
+0:896  0:000   - [03]: FIDT  A M I len=156
+0:896  0:000   - [04]: SSDT  CPUSSDT len=252
+0:896  0:000   - [05]: SSDT  AMD ALIB len=35992
+0:896  0:000   - [06]: SSDT  AMD AOD len=13037
+0:896  0:000   - [07]: MCFG  A M I len=60
+0:896  0:000   - [08]: HPET  A M I len=56
+0:896  0:000   - [09]: UEFI  A M I  len=66
+0:896  0:000   - [10]: IVRS  AMD IVRS len=208
+0:896  0:000   - [11]: PCCT  AMD PCCT len=110
+0:896  0:000   - [12]: SSDT  AMD CPU len=16073
+0:896  0:000   - [13]: CRAT  AMD CRAT len=5464
+0:896  0:000   - [14]: CDIT  AMD CDIT len=41
+0:896  0:000   - [15]: BGRT  A M I  len=56
+0:896  0:000   - [16]: SSDT  AmdTable len=7498
+0:896  0:000   - [17]: SSDT  AMD PT len=191
+0:896  0:000   - [18]: WSMT  A M I  len=40
+0:896  0:000   - [19]: SSDT  AmdTable len=4271
+0:896  0:000  Calibrated TSC Frequency = 3600524880 = 3600MHz
+0:896  0:000  === [ GetUserSettings ] ===================================
+0:896  0:000  USB FixOwnership: no
+0:896  0:000   - final DSDT Fix mask=00000004
+0:896  0:000  PatchesDSDT: 1 requested
+0:896  0:000   - [00]: (change PNP0C09 to PNPFFFF (prevent EC)) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:896  0:000  EnableC6: no
+0:896  0:000  Using ProductName from config: iMacPro1,1
+0:896  0:000  Found same BiosVersion in clover and config
+0:896  0:000  BiosVersion: IMP11.88Z.F000.B00.1910172120
+0:896  0:000  BiosReleaseDate: 10/17/2019
+0:896  0:000  Using EfiVersion from clover: 1037.40.124.0.0
+0:896  0:000  Using FirmwareFeatures from config: 0xFD8FF53F
+0:896  0:000  Using FirmwareFeaturesMask from config: 0xFF9FFF3F
+0:896  0:000  Board-ID set from config as Mac-7BA5B2D9E42DDD94
+0:896  0:000  BoardType: 0xA
+0:896  0:000  ChassisType: 0x9
+0:896  0:000  === [ Found DSDT tables ] =================================
+0:906  0:009  === [ ScanVolumes ] =======================================
+0:906  0:000  Found 19 volumes with blockIO
+0:906  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x2,0x0)
+0:906  0:000          USB volume
+0:906  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x2,0x0)\HD(1,GPT,3E132DB3-5F03-4E62-AE56-B2589C909217,0x22,0x64000)
+0:906  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:906  0:000          USB volume
+0:907  0:000          This is SelfVolume !!
+0:907  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x2,0x0)\HD(2,GPT,A3807392-C662-448B-808F-C214675AB173,0x64022,0xFA022)
+0:908  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:908  0:000          USB volume
+0:909  0:001  - [03]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x2,0x0)\HD(3,GPT,1F9B68A2-0AE3-44C8-A8AC-42424330DE59,0x15E044,0x108388B)
+0:910  0:000          USB volume
+0:910  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1,0x1)\Pci(0x0,0x0)\NVMe(0x1,4F-56-00-91-87-38-25-00)
+0:910  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1,0x1)\Pci(0x0,0x0)\NVMe(0x1,4F-56-00-91-87-38-25-00)\HD(1,GPT,6FBEB7C1-E203-409C-BBBB-550A7C0520CA,0x800,0x108800)
+0:910  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:910  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1,0x1)\Pci(0x0,0x0)\NVMe(0x1,4F-56-00-91-87-38-25-00)\HD(2,GPT,DDF9B74B-5492-4B6D-8427-DBDD495A2A32,0x109000,0x32000)
+0:910  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:910  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1,0x1)\Pci(0x0,0x0)\NVMe(0x1,4F-56-00-91-87-38-25-00)\HD(3,GPT,B9BD7C7E-267D-473F-9D10-3FF114C523F0,0x13B000,0x8000)
+0:910  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1,0x1)\Pci(0x0,0x0)\NVMe(0x1,4F-56-00-91-87-38-25-00)\HD(4,GPT,650F7505-137C-4766-9E03-9F177C8B4DE8,0x143000,0x1DBB0000)
+0:911  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:911  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)
+0:911  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)
+0:912  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:912  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,4801BDDD-CE6D-414D-A0D9-E3EC57F7BAA1,0x800,0x15D509800)
+0:912  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:912  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(1,GPT,C850E816-FA39-4335-8E7E-424C14336810,0x22,0xFA000)
+0:913  0:000          Result of bootcode detection: bootable Windows (win)
+0:913  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)
+0:914  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:914  0:000  - [14]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5725706BD698A940BBE124E875CE36D7)
+0:914  0:000  - [15]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7B828665B89ABA3D96EC180C2F0BC8E0)
+0:914  0:000  - [16]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,10D055CD3C36D14BA072EC433EDBDF58)
+0:914  0:000  - [17]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,37261D1D271625489D0A0592DB43FB9D)
+0:914  0:000  - [18]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BA132C975CC6FF4986148ADF9999ADA5)
+0:914  0:000  No AudioIoProtocols, status=Not Found
+0:914  0:000  === [ InitTheme ] =========================================
+0:914  0:000  use daylight theme
+0:915  0:000  Using theme 'Lenovo' (EFI\CLOVER\themes\Lenovo)
+0:915  0:000  OS main and drive as badge
+0:915  0:000  file sound read: sound.wav Not Found
+0:918  0:002  Loading font from ThemeDir: Success
+0:918  0:000  theme inited
+0:918  0:000  Chosen theme Lenovo
+0:918  0:000  after NVRAM boot-args=-v npci=0x2000 debug=0x100 keepsyms=1 agdpmod=pikera
+0:918  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+0:918  0:000  no AppleSMC protocol
+0:920  0:001  Entry scan disabled
+0:920  0:000  Scanning legacy ...
+0:920  0:000   5: 'b' (vista,win) add legacy
+0:920  0:000          [!] Icon 19 (icons\vol_internal_ntfs.icns) not found (path: EFI\CLOVER\themes\Lenovo)
+0:921  0:000   added 'Boot Windows from b' OSType=2 Icon=vista,win
+0:921  0:000   6: 'EFI' (vista,win) add legacy
+0:921  0:000   added 'Boot Windows from EFI' OSType=2 Icon=vista,win
+0:921  0:000   8: '' (vista,win) add legacy
+0:921  0:000   added 'Boot Windows from ' OSType=2 Icon=vista,win
+0:921  0:000  11: 'D™' (vista,win) add legacy
+0:921  0:000   added 'Boot Windows from D™' OSType=2 Icon=vista,win
+0:921  0:000  12: 'EFI' (win) add legacy
+0:921  0:000   added 'Boot Windows from EFI' OSType=2 Icon=win
+0:921  0:000  === [ AddCustomTool ] =====================================
+0:921  0:000          [!] Icon 1 (icons\func_options.png) not found (path: EFI\CLOVER\themes\Lenovo)
+0:921  0:000          [!] Icon 0 (icons\func_about.png) not found (path: EFI\CLOVER\themes\Lenovo)
+0:921  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+0:921  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BA132C975CC6FF4986148ADF9999ADA5)
+0:921  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BA132C975CC6FF4986148ADF9999ADA5)'
+0:921  0:000    - LoaderPath: '<null string>'
+0:921  0:000    - Guid = ACD1E2B5-C844-402A-A31B-C6E46168FC51
+0:921  0:000  === [ FindStartupDiskVolume ] =============================
+0:921  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BA132C975CC6FF4986148ADF9999ADA5)
+0:921  0:000     - searching for that partition
+0:921  0:000      - [!] not found
+0:921  0:000     - searching again, but comparing Media dev path nodes
+0:921  0:000      - [!] not found
+0:921  0:000  Default boot entry not found
+0:921  0:000  DefaultIndex=-1 and MainMenu.EntryCount=7
+0:939  0:018  GUI ready
+4:607  3:667  exit from MainMenu 8
+4:607  0:000  ReinitSelfLib after theme change
+4:607  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x2,0x0)\HD(1,GPT,3E132DB3-5F03-4E62-AE56-B2589C909217,0x22,0x64000)
+4:607  0:000  === [ ScanVolumes ] =======================================
+4:607  0:000  Found 19 volumes with blockIO
+4:607  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x2,0x0)
+4:608  0:000          USB volume
+4:608  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x2,0x0)\HD(1,GPT,3E132DB3-5F03-4E62-AE56-B2589C909217,0x22,0x64000)
+4:608  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:608  0:000          USB volume
+4:608  0:000          This is SelfVolume !!
+4:608  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x2,0x0)\HD(2,GPT,A3807392-C662-448B-808F-C214675AB173,0x64022,0xFA022)
+4:609  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:609  0:000          USB volume
+4:609  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x0)\USB(0x2,0x0)\HD(3,GPT,1F9B68A2-0AE3-44C8-A8AC-42424330DE59,0x15E044,0x108388B)
+4:609  0:000          USB volume
+4:609  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1,0x1)\Pci(0x0,0x0)\NVMe(0x1,4F-56-00-91-87-38-25-00)
+4:609  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1,0x1)\Pci(0x0,0x0)\NVMe(0x1,4F-56-00-91-87-38-25-00)\HD(1,GPT,6FBEB7C1-E203-409C-BBBB-550A7C0520CA,0x800,0x108800)
+4:609  0:000          Result of bootcode detection: bootable Windows (vista,win)
+4:609  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1,0x1)\Pci(0x0,0x0)\NVMe(0x1,4F-56-00-91-87-38-25-00)\HD(2,GPT,DDF9B74B-5492-4B6D-8427-DBDD495A2A32,0x109000,0x32000)
+4:609  0:000          Result of bootcode detection: bootable Windows (vista,win)
+4:609  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1,0x1)\Pci(0x0,0x0)\NVMe(0x1,4F-56-00-91-87-38-25-00)\HD(3,GPT,B9BD7C7E-267D-473F-9D10-3FF114C523F0,0x13B000,0x8000)
+4:609  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1,0x1)\Pci(0x0,0x0)\NVMe(0x1,4F-56-00-91-87-38-25-00)\HD(4,GPT,650F7505-137C-4766-9E03-9F177C8B4DE8,0x143000,0x1DBB0000)
+4:610  0:000          Result of bootcode detection: bootable Windows (vista,win)
+4:610  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)
+4:610  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)
+4:611  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:611  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,4801BDDD-CE6D-414D-A0D9-E3EC57F7BAA1,0x800,0x15D509800)
+4:611  0:000          Result of bootcode detection: bootable Windows (vista,win)
+4:611  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(1,GPT,C850E816-FA39-4335-8E7E-424C14336810,0x22,0xFA000)
+4:612  0:000          Result of bootcode detection: bootable Windows (win)
+4:612  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)
+4:613  0:000          Result of bootcode detection: bootable unknown (legacy)
+4:613  0:000  - [14]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5725706BD698A940BBE124E875CE36D7)
+4:613  0:000  - [15]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7B828665B89ABA3D96EC180C2F0BC8E0)
+4:613  0:000  - [16]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,10D055CD3C36D14BA072EC433EDBDF58)
+4:613  0:000  - [17]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,37261D1D271625489D0A0592DB43FB9D)
+4:613  0:000  - [18]: Volume: PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BA132C975CC6FF4986148ADF9999ADA5)
+4:613  0:000  No AudioIoProtocols, status=Not Found
+4:613  0:000  theme inited
+4:613  0:000  Chosen theme Lenovo
+4:613  0:000  after NVRAM boot-args=-v npci=0x2000 debug=0x100 keepsyms=1 agdpmod=pikera
+4:613  0:000  Entry scan disabled
+4:613  0:000  Scanning legacy ...
+4:613  0:000   5: 'b' (vista,win) add legacy
+4:613  0:000   added 'Boot Windows from b' OSType=2 Icon=vista,win
+4:613  0:000   6: 'EFI' (vista,win) add legacy
+4:614  0:000   added 'Boot Windows from EFI' OSType=2 Icon=vista,win
+4:614  0:000   8: '' (vista,win) add legacy
+4:614  0:000   added 'Boot Windows from ' OSType=2 Icon=vista,win
+4:614  0:000  11: 'D™' (vista,win) add legacy
+4:614  0:000   added 'Boot Windows from D™' OSType=2 Icon=vista,win
+4:614  0:000  12: 'EFI' (win) add legacy
+4:614  0:000   added 'Boot Windows from EFI' OSType=2 Icon=win
+4:614  0:000  === [ AddCustomTool ] =====================================
+4:614  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+4:614  0:000  === [ FindStartupDiskVolume ] =============================
+4:614  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1,0x3)\Pci(0x0,0x1)\Sata(0x5,0xFFFF,0x0)\HD(2,GPT,ACD1E2B5-C844-402A-A31B-C6E46168FC51,0xFA800,0x37D48E88)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,BA132C975CC6FF4986148ADF9999ADA5)
+4:614  0:000     - searching for that partition
+4:614  0:000      - [!] not found
+4:614  0:000     - searching again, but comparing Media dev path nodes
+4:614  0:000      - [!] not found
+4:614  0:000  Default boot entry not found
+4:614  0:000  DefaultIndex=-1 and MainMenu.EntryCount=7
