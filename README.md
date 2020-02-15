@@ -1,6 +1,22 @@
 # Hackintosh_AMD
-AMD 2600 &amp; B450M &amp; RX580
+设备信息：
+- AMD 2600/2700 
+- B450M  
+- RX580  
+- bcm943602cs
+- 芝奇 DDR4 3000HZ 32G
 ## DOC :
+*** 
+
+### 10.15.2安装方法：
+
+[参照黑果小兵博客](https://blog.daliansky.net/)
+[macOS Catalina 10.15.3](https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html)
+
+*** 
+
+
+### 10.14.6安装方法：
 
 [说明文档](https://vanilla.amd-osx.com/)
 
@@ -11,6 +27,7 @@ AMD 2600 &amp; B450M &amp; RX580
 [驱动下载和文档](https://bitbucket.org/RehabMan/)
 
 [macOS Mojave 10.14.6(18G87) Installer for Intel and AMD with Clover 5050 and WEPE.dmg](https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html)
+*** 
 
 ## TIP:
  1. 当配置安装U盘的时候，写镜像的软件可能会报错（1 device failed），无视继续重启进入安装即可，U盘需要8G以上的8G不够，最好使用好点的U盘速度快成功率会高一些
