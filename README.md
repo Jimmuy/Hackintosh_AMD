@@ -1,6 +1,6 @@
 # Hackintosh_AMD
 设备信息：
-- AMD 2600/2700 
+- AMD Ryzen 5 2600 / AMD Ryzen 5 2700 
 - B450M  
 - RX580  
 - bcm943602cs
