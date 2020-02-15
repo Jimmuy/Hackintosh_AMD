@@ -11,7 +11,8 @@
 ### 10.15.2安装方法：
 
 [参照黑果小兵博客](https://blog.daliansky.net/)
-[macOS Catalina 10.15.3](https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html)
+
+[macOS Catalina 10.15.3 镜像](https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html)
 
 *** 
 
